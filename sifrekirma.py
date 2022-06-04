@@ -40,7 +40,7 @@ for i in range(len(kelimeler)):      #burada kelimeler dizisinin uzunluğunda d�
         for k in range(len(x)): # burada x değişkeninin uzunluğu kadar, yani kullanıcının girdiği kelime kadar dönmesi için bir daha döngü oluşturduk
             if (kelimeler[i] == x[k]): #burada split komutu ile aldığımız kelime tdk listemizde var ise eklemesi için koşul oluşturuyoruz
                 bulunankelimeler.append(kelimeler[i])
-print(bulunankelimeler)
+print("Kırılmış şifreniz : ",bulunankelimeler)
 
 # ç = 231
 # ı = 305
