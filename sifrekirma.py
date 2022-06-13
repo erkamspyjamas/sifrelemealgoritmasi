@@ -22,7 +22,7 @@ def sifrecoz(message): #burada kullanıcıdan alınan şifrelenmiş diziyi loopa
         sifrelenmisdizi.append(encrypted)
         encrypted = ""
 
-def kelime_getir(dosya_adi):
+def kelime_getir(dosya_adi): #burada kelimeleri ekleyen fonksiyon oluşturduk dosya içerisinden kelimeleri alıp diziye ekliyoruz.
   with open(dosya_adi, encoding='utf-8') as txt: 
     return list(map(str.strip, txt)) 
 
